@@ -2,7 +2,7 @@
 // Start the session
 session_start();
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 
 // podatki za graf o število zemljišč, ki si jih vsak vinogradnik lasti
 $stmt = mysqli_prepare($conn, "SELECT v.ID as oznaka, v.ime as oznaka2, v.priimek as oznaka3, COUNT(z.ID) as kolicina FROM vinogradnik v INNER JOIN zemljisce z ON v.ID = z.vinogradnik_ID GROUP BY v.ID");

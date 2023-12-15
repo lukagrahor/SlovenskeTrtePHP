@@ -8,7 +8,7 @@ if (!isset($_SESSION['vinogradnik_ID'])) {
 }
 
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 
 $vinogradnik_ID = $_SESSION['vinogradnik_ID'];
 // iz prejšnje strani dobim ID pridelka

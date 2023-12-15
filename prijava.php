@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $geslo = htmlspecialchars($_POST['geslo']);
     
     // povezava na bazo
-    $conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+    $conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
     
     // Check if the username and password are correct
 

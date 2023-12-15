@@ -2,7 +2,7 @@
 // Start the session
 session_start();
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 
 // podatki za graf o količini pridelanega pridelka
 $stmt = mysqli_prepare($conn, "SELECT vrsta as oznaka, kolicina_pridelka as kolicina FROM pridelek");

@@ -2,7 +2,7 @@
 // Start the session
 session_start();
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 
 $stmt = mysqli_prepare($conn, "SELECT ID, vrsta, kolicina_pridelka, kolicina_prodanega_pridelka, cena, zemljisce_ID FROM pridelek");
 mysqli_stmt_execute($stmt);

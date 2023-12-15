@@ -9,7 +9,7 @@ if (!isset($_SESSION['vinogradnik_ID'])) {
 }
 
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 $vinogradnik_ID = $_SESSION['vinogradnik_ID'];
 $stmt = mysqli_prepare($conn, "SELECT ID, velikost, kolicina_trt FROM zemljisce WHERE vinogradnik_ID = ?");
 mysqli_stmt_bind_param($stmt, "i", $vinogradnik_ID);

@@ -7,7 +7,7 @@ if (!isset($_SESSION['vinogradnik_ID'])) {
   exit;
 }
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 $vinogradnik_ID = $_SESSION['vinogradnik_ID'];
 $stmt = mysqli_prepare($conn, "SELECT p.ID, vrsta, kolicina_pridelka, kolicina_prodanega_pridelka, cena, zemljisce_ID FROM pridelek p INNER JOIN zemljisce z on p.zemljisce_ID = z.ID WHERE vinogradnik_ID = ?;");
 mysqli_stmt_bind_param($stmt, "i", $vinogradnik_ID);

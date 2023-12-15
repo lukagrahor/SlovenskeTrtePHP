@@ -1,7 +1,7 @@
 <?php
 session_start();
 // povezava na bazo
-$conn = mysqli_connect('localhost', 'root', '', 'slovensketrte');
+$conn = mysqli_connect('localhost', 'id21675710_trte', 'Trte123&', 'id21675710_slovensketrte');
 
 $stmt = mysqli_prepare($conn, "SELECT ID, ime, priimek, naslov, telefon, e_posta FROM vinogradnik");
 mysqli_stmt_execute($stmt);

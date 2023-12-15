@@ -1,0 +1,9 @@
+https://www.w3schools.com/bootstrap5/bootstrap_form_validation.php
+https://themewagon.com/themes/free-responsive-bootstrap-5-html5-construction-company-website-template-upconsttruction/
+https://www.w3schools.com/bootstrap5/bootstrap_tables.php
+https://www.w3schools.com/bootstrap5/bootstrap_form_select.php
+https://stackoverflow.com/questions/12383371/refresh-a-page-using-php
+https://www.w3schools.com/php/func_string_strcasecmp.asp
+https://www.w3schools.com/ai/ai_chartjs.asp
+https://www.w3schools.com/bootstrap5/bootstrap_list_groups.php
+https://getbootstrap.com/docs/5.0/utilities/background/

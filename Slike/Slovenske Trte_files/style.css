@@ -1,0 +1,179 @@
+/**
+* Template Name: UpConstruction - v1.3.0
+* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Set main reusable colors and fonts using CSS variables
+# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Work Sans", sans-serif;
+}
+
+/* Colors */
+:root {
+  --color-default: #364d59;
+  --color-primary: #feb900;
+  --color-secondary: #52565e;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc732;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+/*--------------------------------------------------------------
+# Sections & Section Header
+--------------------------------------------------------------*/
+section {
+  padding: 186px 10px 186px 10px;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f5f6f7;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  color: #2e3135;
+}
+
+.section-header h2:before,
+.section-header h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--color-primary);
+  display: inline-block;
+}
+
+.section-header h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.section-header h2:after {
+  margin: 0 0 10px 15px;
+}
+
+.section-header p {
+  margin: 0 auto 0 auto;
+}
+
+@media (min-width: 1199px) {
+  .section-header p {
+    max-width: 60%;
+  }
+}
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .service-item {
+  padding: 40px;
+  background: #fff;
+  height: 100%;
+}
+
+.services .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.services .service-item .icon i {
+  color: var(--color-secondary);
+  font-size: 40px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+  line-height: 1.8;
+}
+
+.services .service-item .icon:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #f0f1f2;
+  border-radius: 50px;
+  z-index: 1;
+  top: 10px;
+  right: -15px;
+  transition: 0.3s;
+}
+
+.services .service-item h3 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  padding-bottom: 8px;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 4px solid #ebebed;
+  transition: 0.3s;
+}
+
+.services .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item .readmore {
+  margin-top: 15px;
+  display: inline-block;
+  color: var(--color-primary);
+}
+
+.services .service-item:hover .icon:before {
+  background: var(--color-primary);
+}
+
+.services .service-item:hover h3 {
+  border-color: var(--color-primary);
+}
+
+@media (min-width: 992px) {
+  section {
+    height:90%;
+  }
+}

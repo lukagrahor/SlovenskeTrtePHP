@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Slovenske Trte</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./Slovenske Trte_files/bootstrap.min.css" rel="stylesheet">
+  <script src="./Slovenske Trte_files/bootstrap.bundle.min.js.prenos"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+  <link href="./Slovenske Trte_files/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1>Slovenske Trte</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav" id="nav-items">
+      <li class="nav-item">
+        <a class="nav-link active" href="http://localhost/DN3/index.php">
+        <img src="./Slovenske Trte_files/logo.png" alt="Avatar Logo" style="width:37px;" class="rounded-pill">
+        </a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="http://localhost/DN3/odjava.php">Odjava</a>
+      </li>
+          </ul>
+  </div>
+</nav>
+
+<!-- Izbira pridelkov, zemljišč ali vinogradnikov-->
+<section id="section_menu" class="services section-bg">
+  <div class="text-black text-center">
+    <h1>Zemljišča</h1>
+  </div>
+  <div class="container" data-aos="fade-up">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item  position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-mountain-city"></i>
+          </div>
+          <h3>Prikaži</h3>
+          <p>Prikaže seznam vseh zemljišč.</p>
+          <a href="http://localhost/DN3/zemljisca.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+          </div>
+          <h3>Dodaj</h3>
+          <p>Dodajanje novih zemljišč.</p>
+          <a href="http://localhost/DN3/zemljisca_dodaj.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+          </div>
+          <h3>Uredi</h3>
+          <p>Pregled in urejanje lastnih zemljišč.</p>
+          <a href="http://localhost/DN3/zemljisca_last.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+      <div class="container mt-3 mb-3 text-center">
+        <button id="nazaj" class="btn btn-primary">Nazaj</button>
+      </div>
+  </div>
+</section>
+
+<div class="p-3 bg-dark text-white text-center fixed-bottom">
+  <p>Viri</p>
+</div>
+<script type="text/javascript">
+  document.getElementById("nazaj").onclick = function () {
+    location.href = "index.php";
+  };
+</script>
+
+
+</body></html>
